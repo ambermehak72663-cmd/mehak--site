@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amber Mehak — Public Administration | Web Dev | Design | Cloud</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(180deg,#f8fafc 0%,#fff 50%);
+      color:#0f172a;
+    }
+    .btn-main { background: linear-gradient(90deg,#ffd6e8,#d1ffd6); color:#05203a; font-weight:600; }
+    .btn-outline { border:1px solid rgba(15,23,42,0.1); background:#fff; color:#05203a; }
+    .card { background:#fff; box-shadow:0 6px 18px rgba(15,23,42,0.05); border-radius:14px; }
+    .proj-img { width:100%; height:220px; object-fit:cover; border-top-left-radius:14px; border-top-right-radius:14px; }
+  </style>
+</head>
+<body class="max-w-6xl mx-auto px-6">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center py-6">
+    <div class="flex items-center gap-3">
+      <div class="w-12 h-12 flex items-center justify-center rounded-full shadow bg-white font-bold">AM</div>
+      <div>
+        <div class="font-semibold text-slate-900">Amber Mehak</div>
+        <div class="text-sm text-gray-500">Public Administration • Web Dev • Design • Cloud</div>
+      </div>
+    </div>
+    <nav class="hidden md:flex gap-6 text-sm">
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#courses" class="hover:underline">Courses</a>
+      <a href="#projects" class="hover:underline">Projects</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+      <a href="https://www.linkedin.com/in/ambermehak?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+         target="_blank" class="px-4 py-2 rounded-full btn-outline">LinkedIn</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="grid md:grid-cols-2 gap-8 items-center py-10">
+    <div>
+      <h1 class="text-4xl md:text-5xl font-extrabold">Hi — I'm 
+        <span style="background:linear-gradient(90deg,#efc8f8,#c6ffd9);-webkit-background-clip:text;color:transparent">
+          Amber Mehak
+        </span>
+      </h1>
+      <p class="mt-4 text-gray-600">Public Administration student exploring Web Development, Graphic Design & Cloud Computing. 
+        Passionate about making civic ideas more visual and accessible.</p>
+
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a class="px-4 py-2 rounded-lg btn-main shadow-sm"
+           href="https://ambermehak.my.canva.site/portfolio-site" target="_blank">View Portfolio</a>
+
+        <!-- ✅ Opens PDF Resume directly in browser -->
+        <a class="px-4 py-2 rounded-lg btn-outline"
+           href="assets/Amber_Mehak_Resume.pdf" target="_blank">View Resume</a>
+
+        <a class="px-4 py-2 rounded-lg btn-outline" href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="card p-6">
+      <div class="flex items-center gap-4">
+        <!-- Replace with your real profile photo -->
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&q=80" 
+             alt="Amber Mehak" class="w-28 h-28 rounded-full object-cover" />
+        <div>
+          <div class="font-semibold text-lg">Amber Mehak</div>
+          <div class="text-sm text-gray-500">Public Administration Student</div>
+          <a href="mailto:ambermehak72663@gmail.com" class="text-sm text-blue-500 hover:underline">ambermehak72663@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses -->
+  <section id="courses" class="py-10">
+    <h2 class="text-2xl font-semibold mb-6">Courses</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="card p-5">
+        <h3 class="font-semibold text-lg">Web Development</h3>
+        <p class="text-gray-600 text-sm mt-1">HTML, CSS, JavaScript and Responsive Websites</p>
+      </div>
+      <div class="card p-5">
+        <h3 class="font-semibold text-lg">Graphic Design</h3>
+        <p class="text-gray-600 text-sm mt-1">Creative visuals and campaigns using Canva & Figma</p>
+      </div>
+      <div class="card p-5">
+        <h3 class="font-semibold text-lg">Cloud Computing</h3>
+        <p class="text-gray-600 text-sm mt-1">Hosting and cloud storage for web apps</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-10">
+    <h2 class="text-2xl font-semibold mb-6">Projects</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="card overflow-hidden">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80" alt="">
+        <div class="p-4">
+          <h3 class="font-semibold">Civic Web Dashboard</h3>
+          <p class="text-sm text-gray-600 mt-1">Visualizing city reports with interactive charts.</p>
+        </div>
+      </div>
+
+      <div class="card overflow-hidden">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1496318447583-f524534e9ce1?w=800&q=80" alt="">
+        <div class="p-4">
+          <h3 class="font-semibold">Health Awareness Campaign</h3>
+          <p class="text-sm text-gray-600 mt-1">Poster design encouraging public health awareness.</p>
+        </div>
+      </div>
+
+      <div class="card overflow-hidden">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80" alt="">
+        <div class="p-4">
+          <h3 class="font-semibold">Cloud Hosting Demo</h3>
+          <p class="text-sm text-gray-600 mt-1">A demo showing how to host and deploy websites on cloud.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-10 mb-12">
+    <div class="card p-6 max-w-2xl mx-auto">
+      <h3 class="text-xl font-semibold mb-3">Contact Me</h3>
+      <p class="text-gray-600 text-sm mb-4">Want to collaborate or discuss a project? Email me directly.</p>
+      <a href="mailto:ambermehak72663@gmail.com" 
+         class="px-4 py-2 rounded-lg btn-main">Send Email</a>
+      <a class="ml-3 text-blue-500 hover:underline text-sm"
+         href="assets/Amber_Mehak_Resume.pdf" target="_blank">View Resume</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-500 text-sm py-8 border-t">
+    © <script>document.write(new Date().getFullYear())</script> Amber Mehak — Public Administration | Web Dev | Design | Cloud
+  </footer>
+</body>
+</html>
